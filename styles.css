@@ -24,10 +24,12 @@ p{
 }
 
 .audio_container{
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-right: auto;
-    margin-left: 400px;
+    margin-left: 150px;
+    vertical-align: top;
 }
 
 .audio_box{
